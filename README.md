@@ -4,6 +4,18 @@ enough detailed information. We hope that the services we provide are satisfacto
 Our organization will gradually cost more and more online to gain more customers and income.
 After expanding our influence, we can also regulate the market and provide better services to students and teachers of Kean.
 
+## Functionality
+
+- Buying
+- Selling
+- Renting
+- Loan
+- Find Agent
+- Manage Rent
+- Advertise
+- Help
+- Sign-In/Sign-Up
+
 ## Website Content
 There will be nine pages with one popup, the popup will appear when clicking on "signin" from there a popup for the user appears for them to login.
 The pages will be connect by the navigation bar which will contain links to the other pages.
