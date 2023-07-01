@@ -11,14 +11,6 @@
       .center {
         text-align: center;
       }
-      .bannertext{
-        position: absolute;
-        text-align: center;
-        font-weight: bold;
-        top: 150px;
-        left: 540px;
-        font-size: 40px;
-      }
       .title {
         font-weight: bold;
         font-weight: 900;
@@ -42,13 +34,12 @@
         display: block;
         margin: 100px 0;
       }
-      .searchbar{
-        position: absolute;
-        top: 240px;
-        left: 420px;
-        height: 52px;
-        width: 650px;
+      a{ 
+        text-decoration:none !important; 
       }
+
+
+      /* Style navigation bar */
       .navtext{
         color: rgb(0, 0, 0) !important;
         font-size: 21px !important;
@@ -59,16 +50,32 @@
         border-color: red !important;
         text-align: center !important;
       }
-      a{ 
-        text-decoration:none !important; 
-      }
       .nav-item button:hover p {
         color: blue;
       } 
+
+      /* Style banner */
+      .bannertext{
+        position: absolute;
+        text-align: center;
+        font-weight: bold;
+        top: 150px;
+        left: 540px;
+        font-size: 40px;
+      }
       .bannerimage {
         width: 100%;
         height: 405px;
         background-position: center;
+      }
+
+      /* Style searchbar */
+      .searchbar{
+        position: absolute;
+        top: 240px;
+        left: 420px;
+        height: 52px;
+        width: 650px;
       }
       form.searchbar input[type=text] {
         padding: 10px;
@@ -128,9 +135,8 @@
 
 <body style="background-color:rgb(223, 223, 223);">
 
-
+<!-- navigation bar -->
   <nav class="navbar navbar-expand-sm bg-white navbar-white">
-    <!-- Container wrapper -->
     <div class="container-fluid">
         <!-- Left links -->
         <ul class="navbar-nav flex-row">
@@ -185,7 +191,7 @@
         </ul>
     </div>
 </nav>
-
+<!-- navigation bar end -->
 
 
 <!--Sign in Popup-->
@@ -251,10 +257,12 @@
   </div>
 </div>
 
+<!-- banner -->
 <div>
 <img class="bannerimage" draggable="false" src="https://static.vecteezy.com/system/resources/thumbnails/010/195/978/small/real-estate-agent-holding-house-key-to-his-client-after-signing-contract-concept-for-business-loan-investment-mortgage-real-estate-moving-home-or-renting-property-banner-with-copy-space-photo.jpg"/>
 <p class="bannertext"> Agents. Loans. Homes. </p>
 
+<!-- banner search -->
 <form class="searchbar" action="/action_page.php">
   <input type="text"placeholder="Enter an address, neighborhood, city, or ZIP code">
   <button type="submit"><i class="fa fa-search"></i></button>
@@ -263,7 +271,7 @@
 <div class="largebr"></div>
 
 
-
+<!-- three cards -->
   <div class="card-deck">
     <div class="card mx-auto">
       <a class="card-block stretched-link text-decoration-none" href="">
@@ -303,6 +311,7 @@
       </div>
     </div>
   </div>
+  <!-- cards end here -->
 
   <div class="largebr"></div>
 
